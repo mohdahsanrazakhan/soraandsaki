@@ -11,7 +11,7 @@ const AboutUs = () => {
         <p className='font-semibold mb-2'>Every square inch of an Assetz property reflects our “Better Design” philosophy. Here you will find homes that let in tons of natural light, where space is intelligently managed, and every amenity is of the highest quality. By nurturing the greenery all around, we create living spaces that are cherished forever. </p>
         <p className='font-semibold mb-2'>Our team comprises over 250 – 300 professionals who bring outstanding expertise to their respective fields. The team also has a 12-year average of rich cross-industry skills across the board. </p>
         <p className='font-semibold'>Our mission is to balance the need to break through the clutter of a highly competitive market where trends and fashion have a very short shelf life, with the demands of cost and investor confidence. A way to not succumb to this is to conceive architecture that expresses a sort of timelessness – responding to factors that are immutable to the site and the surrounding context and not to passing trends – in order to create something that cannot be replicated elsewhere.</p>
-        <div className="flex justify-center items-center gap-10 pt-[60px] pb-[10px]">
+        <div className="flex justify-center items-center gap-10 pt-[60px] pb-[10px] flex-wrap">
           <AboutUsCard units="30+" title="RESIDENTIAL PROJECTS" />
           <AboutUsCard units="15,800+" title="residential units delivered & underway" />
           <AboutUsCard units="27 Mn+ SQFT" title="developed & ongoing" />

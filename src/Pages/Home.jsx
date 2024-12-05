@@ -1,6 +1,7 @@
 import heroBannerLg from '../assets/hero-banner-large.jpg';
 import heroBannerSm from '../assets/hero-banner-small.jpg';
 import AboutUs from '../Components/AboutUs';
+import Configuration from '../Components/Configuration';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 
@@ -15,6 +16,7 @@ const Home = () => {
         alt="sora and saki banner" 
         className='w-full'
       />
+      <Configuration />
       <AboutUs />
       <Footer />
     </>
